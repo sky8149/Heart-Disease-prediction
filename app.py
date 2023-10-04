@@ -7,7 +7,7 @@ model_filename = 'model.pkl'
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 st.title('Heart Disease Prediction') 
-st.write('To inpute or change the values of attributes kindly use the sidebar accessible from the top left side of the page')   
+st.write('To input or change the values of attributes kindly use the sidebar accessible from the top left side of the page')   
 st.sidebar.header('User Input Features')
     
 
